@@ -1,0 +1,45 @@
+<html>
+
+<link href="rsvp_style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+
+
+
+<head>
+     <title>:)</title>
+</head>
+
+<body>
+
+    <img src="wood2bg.jpg" id="bg" alt="">
+    <h1>RSVP</h1>
+    <hr> </hr>
+
+    <form method="get" id="inp">
+        First name:
+        <input type="text" name="first_name" value="" maxlength="100" id="first"/>
+            <br />
+        Last name:
+        <input type="text" name="last_name" value="" maxlength="100" id="last"/>
+            <input type="submit" value="Submit" id="sub" onclick="save_name();"/>
+    </form>
+
+    <h2 id="thanks">Thank you, _____</h2>
+
+
+    <script>
+        
+
+    function save_name() {
+        var first_name = document.getElementById("first");
+        // alert(first_name);
+        document.getElementById("thanks").innerHTML = first_name;
+    }
+    
+    </script>
+    
+    
+
+</body>
+
+</html>

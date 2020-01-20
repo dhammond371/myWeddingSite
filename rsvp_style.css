@@ -1,0 +1,63 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 1.0;
+}
+
+h1 {
+    color: white;
+    font-family: Snell Roundhand, cursive;
+    font-size: 75px;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 0px #020202, 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+    margin-bottom: 5%;
+}
+
+#inp {
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color: #7696C9;
+    text-shadow: 2px 2px 0px #020202, 4px 4px 0px rgba(0,0,0,0.15);
+    margin-top: 10%;
+}
+
+#first {
+    width: 20%;
+    font-size: 40px;
+}
+
+#last {
+    width: 20%;
+    font-size: 40px;
+}
+
+#sub {
+    font-size: 25px;
+    background-color: #7696C9;
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: Snell Roundhand, cursive;
+    font-size: 75px;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 0px #020202, 4px 4px 0px rgba(0,0,0,0.15);
+}
+
